@@ -158,9 +158,9 @@ public class ReadJson {
             	}
             	if(country.equals("Sweden")) { 
             		Sweden += 1;
-            		CanadaObj.put("name",country);
+            		SwedenObj.put("name",country);
             		String Latest = dc;
-            		CanadaObj.put("Last", Latest);
+            		SwedenObj.put("Last", Latest);
             	}
             	if(country.equals("Italy")) { 
             		Italy += 1;
